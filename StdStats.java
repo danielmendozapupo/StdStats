@@ -34,18 +34,16 @@ public class StdStats
 
 
     public static void main(String[] args){
-        //int n = Integer.parseInt(args[0]);
-
+        
         double[] a = {0.5, 0.3, 0.1, 0.1};
-
-       // for(int i = 0; i < n; i++){
+      
             StdOut.printf("       var %7.3f\n", var(a));
             StdOut.printf("      mean %7.3f\n", mean(a));
             StdOut.printf("       max %7.3f\n", max(a));
             StdOut.printf("   std dev %7.3f\n", stddev(a));
 
             StdOut.println();
-        //}
+        
     }
 
 
