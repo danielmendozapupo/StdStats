@@ -36,9 +36,6 @@ public class StdRandom
         return mu + sigma * gaussian();
     }
 
-    /*public static int discrete(double[] probabilities){
-
-    }*/
     public static int discrete(double[] probabilities)
     {
         // precondition: sum of array entries equals 1
